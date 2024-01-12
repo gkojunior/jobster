@@ -1,9 +1,13 @@
-function App() {
+import Landing from './pages/Landing'
+import styled from 'styled-components'
 
-  return (
-    <h1>Job Hunt
-    </h1>
-  )
+function App() {
+	return (
+		<div>
+			<Landing />
+		</div>
+	)
 }
 
 export default App
+
