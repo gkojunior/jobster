@@ -1,13 +1,15 @@
 import { Link } from 'react-router-dom'
 import main from '../assets/images/main.svg'
+
 import Wrapper from '../assets/wrappers/LandingPage'
+import Logo from '../components/Logo'
+
 
 const Landing = () => {
 	return (
 		<Wrapper>
 			<nav>
-				{/* <img src={logo} alt='Jobster logo' className='logo' /> */}
-				<h3>job hunt</h3>
+				<Logo/>
 			</nav>
 			<div className='container page'>
 				<div className='info'>
@@ -19,7 +21,7 @@ const Landing = () => {
 						allows you to stay focus and organized, while keeping all interview
 						up to date .
 					</p>
-					<Link to='register' className='btn btn-hero'>
+					<Link to='/register' className='btn btn-hero'>
 						Login/Register
 					</Link>
 				</div>
